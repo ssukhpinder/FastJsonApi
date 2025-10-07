@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
+    <AssemblyName>FastJsonApi</AssemblyName>
+    <RootNamespace>FastJsonApi</RootNamespace>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <NoWarn>CA2007</NoWarn>
+	<LangVersion>preview</LangVersion> <!-- or 13.0 when GA -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+</Project>
